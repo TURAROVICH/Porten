@@ -34,6 +34,8 @@ color: #FFFFFF;
     background: url("../assets/2018-col.png") no-repeat;
     width: 50vw;
     height: 100vh;
+    background-position: center;
+    background-size: cover;
 
 }
 .collection{
@@ -85,5 +87,17 @@ text-transform: uppercase;
 }
 .main{
     display: flex;
+}
+@media screen and (max-width:637px) {
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        /* background: #000; */
+        
+    }
+    .bg{
+        width: 100vw;
+    }
 }
 </style>

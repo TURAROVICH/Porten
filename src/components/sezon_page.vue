@@ -109,4 +109,28 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
+
+@media screen and ( max-width:1020px){
+  .main{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+.collection  {
+  width: 100%;
+  background-position: center;
+}
+}
+
+
+
+@media screen and ( max-width:772px){
+  .cards{
+    flex-wrap: wrap;
+  }
+  .sezon{
+    height: 100%;
+  }
+}
 </style>

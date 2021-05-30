@@ -131,12 +131,14 @@ color: #FFFFFF;
     background: url("../assets/footerbg.png");
     height: 400px;
     background-size: cover;
+    background-position: center;
 }
 .container{
     width: 1000px;
         display: flex;
     /* align-items: center; */
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .title{
     font-family: Playfair Display;
@@ -147,5 +149,15 @@ line-height: 32px;
 margin-bottom: 30px;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+@media screen and (max-width:920px){
+    .container{
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .main{
+        height: 600px;
+    }
 }
 </style>

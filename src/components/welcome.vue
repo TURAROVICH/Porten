@@ -25,6 +25,7 @@
     background: url("../assets/bg.png") no-repeat;
     box-sizing: border-box;
     background-size: cover;
+    background-position:  center;
 }
 .container{
     display: flex;

@@ -63,4 +63,14 @@ li{
     max-width: 1260px;
     max-height: 40px;
 }
+
+
+@media screen and (max-width:500px){
+    .main{
+        display: none;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
 </style>
