@@ -15,7 +15,7 @@
           </div>
 
     <div  id="modal" v-if="check">
-         <div class="container">
+         <div class="container-modal">
 
                 <div class="support-text">
                     <ul>
@@ -143,7 +143,7 @@ li{
     align-items: center;
         background: #000000;
 }
-.container{
+.container-modal{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -153,6 +153,9 @@ li{
     max-height: 40px;
     flex-wrap: wrap;
     /* margin-top: -10px; */
+        width:100%;
+    height: 80px;
+    justify-content: space-around;
 }
 
 
