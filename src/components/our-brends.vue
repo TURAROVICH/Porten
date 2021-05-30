@@ -61,4 +61,9 @@ text-transform: uppercase;
 color: #FFFFFF;
 
 }
+@media screen and (max-width:520px) {
+    .main{
+        height: 400px;
+    }
+}
 </style>
