@@ -67,6 +67,8 @@ export default {
                  this.active=false
                  this.active1=false   
           }
+
+          this.check = false
         }
     },
     mounted(){
@@ -85,7 +87,7 @@ export default {
     /* left: 50%; */
     z-index: 1001;
    color:  #C0392B;
-   margin-top: 400px;
+   margin-top: 170px;
 }
 #modal{
     position: fixed;
